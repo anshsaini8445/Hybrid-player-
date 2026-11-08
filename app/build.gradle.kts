@@ -9,10 +9,10 @@ android {
 
     defaultConfig {
         applicationId = "com.example.hybridplayer"
-        minSdk = 24
+        minSdk = 21 // Android 5.0 (Lollipop) to Android 17 (UpsideDownCake / Baklava)
         targetSdk = 34
-        versionCode = 14
-        versionName = "4.0.0-PRO"
+        versionCode = 15
+        versionName = "4.1.0-ALL-ANDROID"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
