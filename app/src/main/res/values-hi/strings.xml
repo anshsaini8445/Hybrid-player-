@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">हाइब्रिड प्लेयर</string>
+    <string name="tab_video">वीडियो</string>
+    <string name="tab_folder">फ़ोल्डर</string>
+    <string name="tab_status">स्टेटस 4K/8K</string>
+    <string name="tab_audio">ऑडियो स्टूडियो</string>
+    <string name="tab_search">खोजें</string>
+    <string name="tab_me">मी और टूल्स</string>
+    <string name="history_latest_first">हिस्ट्री (अभी देखा गया सबसे पहले)</string>
+    <string name="hybrid_share_title">हाइब्रिड शेयर प्रो (रडार और लाइव बारकोड स्कैनर)</string>
+    <string name="mascot_studio_title">3D पपी और टेडी बियर मैस्कॉट स्टूडियो</string>
+    <string name="app_language_title">ऐप भाषा (सिस्टम डिफ़ॉल्ट / हिन्दी / अंग्रेज़ी)</string>
+    <string name="network_stream_title">एडवांस नेटवर्क स्ट्रीम स्टूडियो (4K/8K)</string>
+    <string name="gallery_wallpaper_title">गैलरी फोटो वॉलपेपर और स्टूडियो थीम्स</string>
+</resources>

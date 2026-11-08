@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hybrid Player</string>
+    <string name="tab_video">Video</string>
+    <string name="tab_folder">Folder</string>
+    <string name="tab_status">Status 4K/8K</string>
+    <string name="tab_audio">Audio Studio</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_me">Me &amp; Toolkit</string>
+    <string name="history_latest_first">History (Latest First)</string>
+    <string name="hybrid_share_title">Hybrid Share Pro (Radar &amp; Live Barcode Scanner)</string>
+    <string name="mascot_studio_title">3D Fluffy Puppy &amp; Teddy Mascots</string>
+    <string name="app_language_title">App Language (System Default / English / Hindi)</string>
+    <string name="network_stream_title">Advanced Network Stream Studio (4K/8K)</string>
+    <string name="gallery_wallpaper_title">Permanent Gallery Photo &amp; Studio Themes</string>
+</resources>

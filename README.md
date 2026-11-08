@@ -1,61 +1,56 @@
-# Hybrid Player Pro (4K / 8K Ultra Media, 3D Audio & Hybrid Share Studio)
+# Hybrid Player Pro (Complete A-to-Z Android Studio Kotlin/Compose + Web/React Repository)
 
-Complete **A-to-Z Source Code** for **Hybrid Player Pro**, featuring:
-
-1. **Video Section & Chronological History (`src/App.tsx`)**
-   - Permanent Gallery Photo Wallpaper & Studio Picture Backdrops across Video, Audio, Search, and Me sections.
-   - Top bar with live Device Clock (`HH:MM AM/PM`), live Battery percentage (`%`), and `HW+ Smart M13` 4K/8K Decoder selector.
-   - Latest-First Watch History strip, Folder browser, 4K/8K 60FPS Status Reels, and 2-Second Hold Multi-Select toolbar.
-
-2. **Pure-White 8X Pro Video Player (`src/components/VideoPlayerModal.tsx`)**
-   - Hold-and-slide Dynamic Speed control (`0.25x` to `8.00x`) with live rotating speedometer needle.
-   - Smooth horizontal swipe seek with live `+sec / -sec` and millisecond/nanosecond telemetry.
-   - Auto-Play Next Video on finish, Interactive Playing Queue with Up/Down swap and Shuffle, 25 Pro Tools in the 3-dot menu, and scrollable bottom quick-action ribbon.
-
-3. **3D Audio Studio (`src/components/AudioStudioSection.tsx`)**
-   - 5-Band 3D Equalizer (animates only when switched ON) + 6 distinct 3D Visualizers.
-   - Live `MM : SS . ms : ns` high-precision timer, 7-Heart 2-second burst animation, vertical swipe volume bar, default Line-by-Line playback mode, and 5-Second DJ Auto-Crossfade.
-
-4. **Me & Toolkit Section (`src/components/MeToolkitSection.tsx`)**
-   - **Real Hybrid Share Pro**: 360° Live Sonar Radar, Multi-Tech selector (`Wi-Fi Direct 5GHz`, `WebRTC P2P`, `Hotspot HTTP`, `Bluetooth BLE`), Receiver 2D QR + 1D Barcode + 6-Digit PIN, and Sender Live Camera Barcode/QR Scanner (`getUserMedia`).
-   - **10 Photorealistic 3D Fluffy Puppy & Teddy Mascots**: Studio 3D renders (`src/assets/images/`) with horned checkered bucket hat, starry galaxy eyes, smiley headphones, and cassette tape in paws + custom photo upload.
-   - **App Languages**: Clean 3-mode language switcher (`System Default (Auto)`, `English`, `हिन्दी (Hindi)`).
-   - **Advanced Network Stream Studio**: Live embedded HD/4K stream player, 3 buffer modes, live ping telemetry, and 6 verified 4K/8K/HD stream channels.
+Is repository mein **Shuru se lekar Last tak (A to Z)** ki **saari 65+ files** shamil hain — aapke Android Studio (Kotlin + Jetpack Compose + Media3 ExoPlayer + CameraX Barcode Scanner) aur Web Studio dono ke saare modules, 10 Real 3D Plush Puppy/Teddy Mascots, Hindi/English Language Resources, aur 4K/8K Decoder files!
 
 ---
 
-## Complete Project File Structure (A to Z)
+## 1. Android Studio Native Project (`app/...`) — Complete Files List
 
-```text
-├── index.html
-├── metadata.json
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-├── .gitignore
-├── .env.example
-└── src/
-    ├── main.tsx
-    ├── index.css
-    ├── App.tsx
-    ├── data/
-    │   └── mediaData.ts
-    ├── components/
-    │   ├── MediaVisuals.tsx
-    │   ├── VideoPlayerModal.tsx
-    │   ├── AudioStudioSection.tsx
-    │   └── MeToolkitSection.tsx
-    └── assets/
-        └── images/
-            ├── mascot_honey_teddy_3d_1794114727822.jpg
-            ├── mascot_sky_puppy_3d_1794114729020.jpg
-            ├── mascot_mocha_puppy_3d_1794114729811.jpg
-            └── mascot_berry_teddy_3d_1794114730850.jpg
-```
+- `settings.gradle.kts`
+- `build.gradle.kts`
+- `gradle.properties`
+- `app/build.gradle.kts`
+- `app/proguard-rules.pro`
+- `app/src/main/AndroidManifest.xml`
+- `app/src/main/java/com/example/MainActivity.kt`
+- `app/src/main/java/com/example/data/model/MediaModels.kt`
+- `app/src/main/java/com/example/data/scanner/DeepMediaScanner.kt`
+- `app/src/main/java/com/example/data/repository/MediaRepository.kt`
+- `app/src/main/java/com/example/viewmodel/PlayerViewModel.kt`
+- `app/src/main/java/com/example/helpers/MascotCompanionHelper.kt`
+- `app/src/main/java/com/example/ui/theme/HybridTheme.kt`
+- `app/src/main/java/com/example/ui/screens/VideoSectionScreen.kt`
+- `app/src/main/java/com/example/ui/screens/VideoPlayerScreen.kt`
+- `app/src/main/java/com/example/ui/screens/AudioStudioScreen.kt`
+- `app/src/main/java/com/example/ui/screens/SearchScreen.kt`
+- `app/src/main/java/com/example/ui/screens/MeToolkitScreen.kt`
+- `app/src/main/java/com/example/ui/components/HybridShareSheet.kt`
+- `app/src/main/java/com/example/ui/components/NetworkStreamSheet.kt`
+- `app/src/main/java/com/example/ui/components/Equalizer3DPanel.kt`
+- `app/src/main/res/values/strings.xml` (English)
+- `app/src/main/res/values-hi/strings.xml` (हिन्दी / Hindi)
+- `app/src/main/res/values/themes.xml`
+- `app/src/main/res/drawable/ic_app_custom_logo.jpg`
+- `app/src/main/res/drawable/mascot_01_honey_teddy.jpg` ... `mascot_10_cosmic_teddy.jpg` (10 Real 3D Plush Mascots)
+- `app/src/test/java/com/example/ExampleRobolectricTest.kt`
 
-## Run Locally
+---
 
-```bash
-npm install
-npm run dev
-```
+## 2. Interactive Web & PWA Studio (`src/...`) — Complete Files List
+
+- `index.html`
+- `package.json`
+- `tsconfig.json`
+- `vite.config.ts`
+- `metadata.json`
+- `.gitignore`
+- `.env.example`
+- `src/main.tsx`
+- `src/index.css`
+- `src/App.tsx` (Video Section, Latest-First History, Device Time & Battery Header, 2s Hold Multi-Select, Gallery Photo Wallpaper Engine)
+- `src/data/mediaData.ts` (4K/8K Videos, Audio Tracks, 10 3D Mascots, System/Hindi/English Translations)
+- `src/components/VideoPlayerModal.tsx` (Pure-White 8X Video Player, 0.25x–8.0x Hold-Slide Dynamic Speed with Needle, Millisecond/Nanosecond Swipe Seek, Auto-Next, Playing Queue with Swap & Shuffle, 25 Pro Tools, Bottom Ribbon)
+- `src/components/AudioStudioSection.tsx` (3D Audio Studio, 5-Band 3D Equalizer ON/OFF Gate, Live `MM:SS.ms:ns` Timer, 7-Heart 2s Burst Animation, 6 3D Visualizers, Vertical Swipe Volume, Line-by-Line Mode, 5s DJ Auto-Crossfade)
+- `src/components/MeToolkitSection.tsx` (Real Hybrid Share Pro with 360° Radar + Receiver QR/1D Barcode + Live Camera Barcode Scanner, 10 Real 3D Plush Mascots Studio, System/Hindi/English Switcher, Advanced Network Stream Studio)
+- `src/components/MediaVisuals.tsx` (3D Mascot & Custom Thumbnail Renderer)
+- `src/assets/images/` (All 10 3D Plush Mascot Renders)
