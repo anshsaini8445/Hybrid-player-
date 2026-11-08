@@ -1,0 +1,6 @@
+{
+  "name": "Max Player",
+  "description": "Feature-rich web media player with advanced video controls, custom equalizer, subtitle support, playlist management, and local/stream playback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
